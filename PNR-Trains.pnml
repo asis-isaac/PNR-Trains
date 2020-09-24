@@ -55,24 +55,52 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 //Coaches
 #include "src/init/init_coach.pnml"
+
+//3rd Class Coach
+#include "src/Coaches/3rd_class_coach_properties.pnml"
+#include "src/Coaches/3rd_class_coach_graphics.pnml"
+#include "src/Coaches/3rd_class_coach_item.pnml"
+
+//MU Coach Powered
 #include "src/Coaches/pnr_mu_coach_powered_graphics.pnml"
 #include "src/Coaches/pnr_mu_coach_powered_properties.pnml"
 #include "src/Coaches/pnr_mu_coach_powered_item.pnml"
+
+//MU Coach Unpowered
 #include "src/Coaches/pnr_mu_coach_unpowered_graphics.pnml"
 #include "src/Coaches/pnr_mu_coach_unpowered_properties.pnml"
 #include "src/Coaches/pnr_mu_coach_unpowered_item.pnml"
+
+// 203 Series generator Car
 #include "src/Coaches/203_generator_car_graphics.pnml"
 #include "src/Coaches/203_generator_car_properties.pnml"
 #include "src/Coaches/203_generator_car_item.pnml"
+
+//203 Series Coach
 #include "src/Coaches/203_coach_graphics.pnml"
 #include "src/Coaches/203_coach_properties.pnml"
 #include "src/Coaches/203_coach_item.pnml"
+
+//7A-100
 #include "src/Coaches/7A_100_graphics.pnml"
 #include "src/Coaches/7A_100_properties.pnml"
 #include "src/Coaches/7A_100_item.pnml"
+
+//7A-2000
 #include "src/Coaches/7A_2000_properties.pnml"
 #include "src/Coaches/7A_2000_graphics.pnml"
 #include "src/Coaches/7A_2000_item.pnml"
+
+//Inka Commuter Coaches
+#include "src/Coaches/inka_commuter_coach_properties.pnml"
+#include "src/Coaches/inka_commuter_coach_graphics.pnml"
+#include "src/Coaches/inka_commuter_coach_item.pnml"
+
+//Series 14 Sleeper
+#include "src/Coaches/series_14_sleeper_properties.pnml"
+#include "src/Coaches/series_14_sleeper_graphics.pnml"
+#include "src/Coaches/series_14_sleeper_item.pnml"
+
 //Wagons
 #include "src/Wagons/flat_wagon_properties.pnml"
 #include "src/Wagons/flat_wagon_graphics.pnml"
@@ -82,17 +110,27 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //Diesel 
 #include "src/init/init_diesel.pnml"
 
-//GE 2500
+//Class 1000
+#include "src/Diesel/diesel_class_1000_properties.pnml"
+#include "src/Diesel/diesel_class_1000_graphics.pnml"
+#include "src/Diesel/diesel_class_1000_item.pnml"
+
+//Class 1000
+#include "src/Diesel/diesel_class_2000_properties.pnml"
+#include "src/Diesel/diesel_class_2000_graphics.pnml"
+#include "src/Diesel/diesel_class_2000_item.pnml"
+
+//Class 5000
 #include "src/Diesel/diesel_class_5000_properties.pnml"
 #include "src/Diesel/diesel_class_5000_graphics.pnml"
 #include "src/Diesel/diesel_class_5000_item.pnml"
 
-//GE 2500
+//Class 2500
 #include "src/Diesel/diesel_class_2500_properties.pnml"
 #include "src/Diesel/diesel_class_2500_graphics.pnml"
 #include "src/Diesel/diesel_class_2500_item.pnml"
 
-//GE 900
+//Class 900
 #include "src/Diesel/diesel_class_900_properties.pnml"
 #include "src/Diesel/diesel_class_900_graphics.pnml"
 #include "src/Diesel/diesel_class_900_item.pnml"
@@ -102,10 +140,30 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "src/Diesel/diesel_cc203_graphics.pnml"
 #include "src/Diesel/diesel_cc203_item.pnml"
 
+//CC 300
+#include "src/Diesel/diesel_cc300_properties.pnml"
+#include "src/Diesel/diesel_cc300_graphics.pnml"
+#include "src/Diesel/diesel_cc300_item.pnml"
+
 //DMUs
 #include "src/init/init_dmu.pnml"
 
-//CMC Nikko
+//MC-14
+#include "src/DMU/mc_14_properties.pnml"
+#include "src/DMU/mc_14_graphics.pnml"
+#include "src/DMU/mc_14_item.pnml"
+
+//MC-14
+#include "src/DMU/mc_102_properties.pnml"
+#include "src/DMU/mc_102_graphics.pnml"
+#include "src/DMU/mc_102_item.pnml"
+
+//DOST HET
+#include "src/DMU/dmu_dost_het_properties.pnml"
+#include "src/DMU/dmu_dost_het_graphics.pnml"
+#include "src/DMU/dmu_dost_het_item.pnml"
+
+//Nikko
 #include "src/DMU/dmu_nikko_properties.pnml"
 #include "src/DMU/dmu_nikko_graphics.pnml"
 #include "src/DMU/dmu_nikko_item.pnml"
@@ -135,3 +193,35 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "src/DMU/dmu_class_8000_graphics.pnml"
 #include "src/DMU/dmu_class_8000_item.pnml"
 
+//Steam 
+#include "src/init/init_steam.pnml"
+
+//Class 300
+#include "src/Steam/steam_class_300_properties.pnml"
+#include "src/Steam/steam_class_300_graphics.pnml"
+#include "src/Steam/steam_class_300_item.pnml"
+
+//Class 140
+#include "src/Steam/steam_class_140_properties.pnml"
+#include "src/Steam/steam_class_140_graphics.pnml"
+#include "src/Steam/steam_class_140_item.pnml"
+
+//Class 170
+#include "src/Steam/steam_class_170_properties.pnml"
+#include "src/Steam/steam_class_170_graphics.pnml"
+#include "src/Steam/steam_class_170_item.pnml"
+
+//Class 200
+#include "src/Steam/steam_class_200_properties.pnml"
+#include "src/Steam/steam_class_200_graphics.pnml"
+#include "src/Steam/steam_class_200_item.pnml"
+
+//Class 1
+#include "src/Steam/steam_class_1_properties.pnml"
+#include "src/Steam/steam_class_1_graphics.pnml"
+#include "src/Steam/steam_class_1_item.pnml"
+
+//Class 45
+#include "src/Steam/steam_class_45_properties.pnml"
+#include "src/Steam/steam_class_45_graphics.pnml"
+#include "src/Steam/steam_class_45_item.pnml"

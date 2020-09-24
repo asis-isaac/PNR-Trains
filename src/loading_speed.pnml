@@ -23,7 +23,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #define NO_LOAD 0
 
 //Intercity vehicles
-#define LOAD_INTERCITY 16
+#define LOAD_INTERCITY 20
+
+//Sleeper cars
+#define LOAD_SLEEPER 15
 
 //Commuter vehicles
 #define LOAD_COMMUTER 40
